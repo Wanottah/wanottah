@@ -1,0 +1,605 @@
+
+body 
+{
+	background-color: black;
+	
+	font-family: nunito, lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+/* start: global style rules */
+h1, h2, h3, h4, h5 
+{
+    line-height: 1.5;
+
+    font-weight: 300;
+
+    margin: 0.5em 0;
+}
+
+
+h1, h2
+{
+	font-weight: 400;
+}
+
+
+h1 
+{
+    font-size: 2.5em;
+}
+
+
+h2 
+{
+    font-size: 1.6em;
+
+	text-transform: uppercase;
+}
+
+
+h3 
+{
+    font-size: 1.6em;
+}
+
+
+h4 
+{
+    font-size: 1.4em;
+}
+
+
+h5 
+{
+    font-size: 1.2em;
+}
+
+
+p, label, strong 
+{
+    line-height: 2;
+
+    font-size: 16px;
+
+    font-weight: 300;
+}
+
+
+/* Navbar */
+.bg-dark 
+{
+	background-color: #131313!important;
+
+	border-bottom: 1px solid #ffb320;
+}
+
+
+.navbar
+{
+	font-size: 1.2rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    color: #fff;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover 
+{
+	color: #ffb320;
+}
+
+
+.active 
+{
+    border-bottom: 3px solid #ffb320;
+}
+
+
+.hero_flex 
+{
+    display: flex;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+	margin-bottom: 10px;
+
+    padding: 0 15px;
+
+    justify-content: space-between;
+}
+
+
+.top_margin 
+{
+	width: 100%;
+
+	height: 98px;
+
+	background-color: #000;
+}
+
+
+.section_margin 
+{
+    margin: 0;
+
+	border-top: 1px solid #ffb320;
+
+	border-bottom: 1px solid #ffb320;
+}
+
+
+.section_margin h1
+{
+	margin: 0;
+
+	text-align: center;
+
+	text-transform: uppercase;
+
+	background-color: #131313;
+
+	color: white;
+}
+
+
+/*.arcade_section
+{
+	margin: 0;
+
+	border-top: 1px solid #ffb320;
+
+	border-bottom: 1px solid #ffb320;
+}
+
+
+.arcade_section h1
+{
+	margin: 0;
+
+	text-align: center;
+
+	text-transform: uppercase;
+
+	background-color: #131313;
+
+	color: white;
+}*/
+
+
+.divided-50
+{
+	height: 50px;
+
+	width: 100%;
+}
+
+
+.intro_section
+{
+	background: url('../img/home/stargate.png') top center no-repeat;
+
+    height: 820px;
+}
+
+
+.projects
+{
+	padding: 70px 0 120px 0;
+}
+
+
+.projects h1 
+{
+    text-align: center;
+
+	text-transform: uppercase;
+
+	color: white;
+}
+
+
+.projects .box
+{
+	position: relative;
+
+    flex-basis: 22%; /* 31%;*/
+
+    background-color: #ffe;
+
+	padding: 5px;
+
+	margin-bottom: 30px;
+
+	border-radius: 6px;
+}
+
+
+.projects .box img 
+{
+    width: 100%;
+
+	border-radius: 6px;
+}
+
+
+.projects .box_empty
+{
+	background: rgba(0, 0, 0, 0);
+
+	flex-basis: 22%; /* 31%;*/
+
+ 	padding: 5px;
+
+	border-radius: 6px;
+}
+
+
+/*.arcade
+{
+	background: url('../img/sections/Berzerk.png') center no-repeat;
+
+	background-color: black;
+}
+
+
+.atari_2600
+{
+	background: url('../img/sections/atari_2600.png') center no-repeat;
+
+	/*background-color: #1c1814;
+
+	background-color: black;
+}
+
+
+.atari_800
+{
+	background: url('../img/sections/atari_800.jpg') center no-repeat;
+
+	background-color: black;
+}
+
+
+.zx81
+{
+	background: url('../img/sections/zx81.jpg') center no-repeat;
+	
+	background-color: black;
+}
+
+
+.zx_spectrum
+{
+	background: url('../img/sections/Spectrum-1.jpg') center no-repeat;
+
+	background-color: black;
+}
+
+
+.commodore_64
+{
+	background: url('../img/sections/commodore_64.jpg') center no-repeat;
+
+	background-color: black;
+}
+
+
+.bbc_model_b
+{
+	background: url('../img/sections/bbc_model_b.jpg') center no-repeat;
+
+	background-color: black;
+}
+
+
+.text_adventure
+{
+	background: url('../img/sections/leather_goddesses.png') center no-repeat;
+
+	background-color: black;
+}
+
+
+.miscellaneous
+{
+	background: url('../img/sections/spacewar.jpg') center no-repeat;
+
+	background-color: black;
+}
+
+
+.unreal
+{
+	background-color: black;
+}
+
+
+.maya
+{
+	background-color: black;
+}
+
+
+.blender
+{
+	background-color: black;
+}
+
+
+.web
+{
+	background-color: black;
+}
+
+
+.blog
+{
+	background-color: black;
+}*/
+
+
+.hero-marketing-text 
+{
+    max-width: 1200px;
+
+    margin: 120px auto 0;
+
+    position: absolute;
+}
+
+
+.hero-marketing-text h1 
+{
+    color: #eee;
+
+    font-size: 3.5em;
+
+    font-weight: 300;
+
+    margin: 0.5em 0;
+}
+
+
+.hero-marketing-text span 
+{
+    color: #FFB320;
+}
+
+
+.hero-marketing-text h5 
+{
+    color: #eee;
+
+    font-size: 1.3em;
+
+    font-weight: 300;
+
+    max-width: 500px;
+
+    line-height: 2;
+
+    margin-bottom: 2.5em;
+}
+
+
+/* start game message wrapper */
+.game_message_wrapper
+{
+	padding: 15px; /* 30px;*/
+
+	width: 100%;
+}
+
+
+.game_message
+{
+	background: rgba(0, 0, 0, 0.7);
+
+	text-align: center;
+
+	color: white;
+
+	padding-top: 10px;
+
+	padding-bottom: 1px;
+}
+/* end game message wrapper */
+
+
+.item-img-wrap
+{
+	position:relative;
+
+	text-align:center;
+
+	overflow:hidden;
+}
+
+
+.item-img-wrap img
+{
+	-webkit-transition: all 200ms linear;
+
+	-moz-transition: all 200ms linear;
+
+	-o-transition: all 200ms linear;
+
+	-ms-transition: all 200ms linear;
+
+	transition: ll 200ms linear;
+}
+
+
+.item-img-overlay
+{
+	position:absolute;
+
+	width:100%;
+
+	height:100%;
+
+	left:0;
+
+	top:0
+}
+
+
+.item-img-overlay span
+{
+	width:100%;
+
+	height:100%;
+
+	position:absolute;
+
+	top: 0;
+
+	left:0;
+
+	background:url(../img/projects/play.png) no-repeat center center rgba(0,0,0,.6);
+
+	-ms-filter:"alpha(opacity=0)";
+
+	filter:alpha(opacity=0);
+
+	opacity:0;
+
+	-webkit-transition:opacity 250ms linear;
+
+	transition:opacity 250ms linear;
+}
+
+
+.item-img-wrap:hover .item-img-overlay span
+{
+	opacity:1;
+}
+
+
+.item-img-wrap:hover img
+{
+	-moz-transform:scale(1.1);
+
+	-webkit-transform:scale(1.1);
+
+	-o-transform:scale(1.1);
+
+	transform:scale(1.1);
+}
+
+
+.rgi-thumb 
+{
+	height: 100%;
+
+	width: 100%;
+
+	padding: 25px 28px;
+}
+
+
+.work-desc
+{
+	background-color: rgba(255,255,255,.15);
+
+	padding:5px 5px 5px; 
+
+	margin-bottom: 30px;
+
+	color: #000; 
+
+	text-transform: uppercase;
+}
+
+
+.work-desc h4
+{
+	font-size:16px;
+
+	font-weight: 400; 
+
+	margin-bottom:5px;
+}
+
+
+.work-desc p
+{
+	font-size:12px;
+
+	font-weight:400;
+
+	margin:0;
+}
+
+
+.work-desc em
+{
+	font-size:12px;
+
+	font-weight:400;
+}
+
+
+.coming_soon span
+{
+	width: 100%;
+
+	height: 100%;
+
+	position: absolute;
+
+	padding-top: 22%;
+
+	left: 0;
+
+	background:url(../img/projects/blank.png) no-repeat center center rgba(0,0,0,.6);
+
+	-ms-filter:"alpha(opacity=0)";
+
+	filter:alpha(opacity=0);
+
+	opacity:0;
+
+	-webkit-transition:opacity 250ms linear;
+
+	transition:opacity 250ms linear;
+}
+
+
+.coming_soon h3
+{
+	font-size: 2rem;
+
+	color: #fff	
+}
+
+
+.blog_text
+{
+	color: #eee;
+}
+
+
+.blog_text h1
+{
+	font-size: 1.8em;
+
+	text-align: left;
+}
+
+
+footer 
+{
+    background-color: #252525;
+
+    padding: 25px 0 20px;
+
+	color:#fff;
+}

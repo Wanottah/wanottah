@@ -1,0 +1,313 @@
+
+<!doctype html> <!-- v2022.11.01 -->
+
+<html>
+    
+	
+	<head>
+		
+        <title>Andy O'Neill | Retro Game Programmer</title>
+		
+		<meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- stylesheets -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+		<!-- my css -->
+        <link href="../../css/wanottah.css" rel="stylesheet">
+
+		<link href="../../css/mediaquery.css" rel="stylesheet">
+		
+		<!-- nunito font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet" type="text/css">
+ 
+	</head>
+	
+	
+	<body> 
+				
+		<!-- start of navigation bar -->
+		<nav class="navbar navbar-expand-md py-4 navbar-dark bg-dark fixed-top">
+					
+			
+			<!-- start of navbar container -->
+			<div class="container">
+				
+				<div></div>
+
+				<!-- start of menu toggle button -->
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+						
+					<span class="navbar-toggler-icon"></span>
+						
+				</button>
+				<!-- end of menu toggle button -->
+			
+				<!-- start of navbar links -->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+						
+					<!-- ul -->
+					<ul class="navbar-nav ml-auto">
+						
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="../../index.html#home">Home</a>
+						</li>
+							
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="../../index.html#game_projects">Games</a>
+						</li>
+							
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="../../index.html#modelling_projects">3D Modelling</a>
+						</li>
+						
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="../../index.html#web_projects">Web Projects</a>
+						</li>
+			
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="../../index.html#history">History</a>
+						</li>
+	
+						<li class="active nav-item mr-4">
+							<a class="nav-link" href="">Blog</a>
+                        </li>
+				
+					</ul>
+					<!-- /ul -->
+			
+				</div>
+				<!-- end of navbar links -->
+				
+			</div>
+			<!-- end of navbar container -->
+				
+		</nav>
+		<!-- end of navigation bar -->
+		
+		
+		<!-- blog -->
+		<div class="top_margin" id="blog"></div>
+
+		
+		<div class="section_margin">
+
+			<h1>The First Video Game - Part 4</h1>
+
+		</div>
+		
+		
+		<!-- blog -->
+		<section class="blog projects">  
+
+			<div class="divided-50"></div>
+				
+			<div class="container">
+
+				<!-- the first video game -->
+				<div class="row">
+					
+					<div class="col-lg-12">
+						
+						<div class="box"><img src="../../img/history/the_first_video_game/the_first_video_game.jpg" alt="The First Video Game"></div>
+						
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					
+					<div class="col-lg-12">
+							
+						<div class="blog_text">
+																
+							<p>
+								So, the candidates that remain are Pong: Computer Space; Baer's Brown Box; Spacewar!; Tennis
+								for Two; and OXO.
+								All of these are documented to exist, so there's no question of practical implementation for
+								any of them - least of all Pong.
+								In terms of video signal, Pong, Computer Space and the Brown Box generate a raster signal
+								suitable for an NTSC television - whereas SpaceWar!, Tennis for Two, and OXO generate
+								an X-Y signal for display on an oscilloscope or vector monitor.
+								OXO's display is a little contentious - while it did use a cathode ray tube and it was driven
+								by a signal, the display wasn't really intended to be a graphical one.
+								In fact, the cathode ray tube wasn't chosen because of its display capability at all - in
+								the early days, CRTs were used for storage.
+								One implementation was called the Williams-Kilburn Tube, and it relied on a curious side effect
+								of energised phosphors - once lit by the scanning electron beam, a charge would persist for
+								a fraction of a second.
+								This secondary emission could be sensed, then the phosphor re-charged on the next scan:
+								meaning you could store an array of a couple of thousand bits indefinitely.
+								This was presented on the face of the display as a grid of illuminated dots - the electron
+								beam scanning rows in a fairly similar way to a raster display.
+								However, a sensor sheet on the face of the tube did cover up most of the visible pattern,
+								making this arrangement less than ideal for use as a display - but quite often a second
+								tube would be connected in parallel without the obstruction.
+								EDSAC, the machine that ran OXO, didn't use a Williams tube for storage - it used mercury
+								delay line memory instead - but the contents of this memory were displayed on a diagnostic
+								CRT in the same manner.
+								So while it was never really intended to be used for graphics, the fact is it was - and
+								so it still qualifies.
+								Back to the candidates: in terms of interactivity I think most here count - again, the only
+								possible exception is OXO.
+								Because of the limitations of the display, OXO is considerably less dynamic than the
+								other examples - with the display only updating when a move is made.
+								That said, the display does change in response to player input. So it is interactive, if
+								not exciting.
+								Intent is the fourth criterion: and it's fairly clear that Pong, Computer Space and Baer's
+								Brown Box were all intended for entertainment - that was their ultimate commercial purpose.
+								Spacewar! was definitely a diversionary pursuit, and is frequently described as a game.
+								Tennis for Two was an exhibit intended for public display - and it may have had an ulterior
+								motive to kindle an interest in science - but the prime appeal was in the playing.
+								Now, OXO.
+								OXO was the product of study at Cambridge University - a practical proof as part of
+								a thesis.
+								If we take it as part of a PhD, the work is purely academic - but I think it's fairer
+								to judge it on its own merits.
+								As a piece of software, it stands alone as what could easily be described as a 'computer
+								game', so while entertainment isn't the purpose of implementation - it was the purpose of
+								playing.
+								So the final test: can the game be played with no other visual output than the video
+								display?
+								Pong and Computer Space qualify without question. They are undoubtedly video games. Few would
+								argue otherwise.
+								You could say that the Brown Box's use of screen overlays for some of its games disqualifies
+								it on this point - and there is some merit to this in cases where the plastic overlay
+								is absolutely necessary to play.
+								But for most of the games it's not - just an accessory - and the basic Tennis game doesn't
+								have an overlay at all, so the Brown Box gets a pass. It's a video game.
+								Spacewar! ran on the PDP-1, which was a modular system with a range of potential visual outputs.
+								The CRT monitor was central to the game, but it wasn't the only output that SpaceWar used.
+								In some versions, game scores were printed.
+								However, these aspects are secondary to the actual gameplay - so Spacewar! is a video
+								game.
+								Tennis For Two is simpler: its only output was the oscilloscope display, so it is a bona
+								fide video game.
+								What about OXO?
+								Like Spacewar! it ran on a full computer system, with its CRT display, line printer - and banks
+								of valves and das blinkenlights.
+								The question is: is it possible to play a full game with only the video display?
+								The answer is... yes. With the caveat that you have to know what you're doing.
+								If you memorise which number corresponds to each grid position (or at least make use of
+								a printed reference) then it's entirely possible to play without any other output.
+								It's clumsy and archaic - your moves are input on a rotary telephone-style dial - but poor
+								controls are no reason to discount it. There are plenty of video games with terrible controls.
+								So OXO is, without doubt, a computer game played on something which can be described
+								as a video display. Under any reasonable definition, I think that qualifies as a video game.
+								It might even be the first.
+								However, to be sure it might be worth further investigation: a closer examination of the
+								environment that spawned OXO may turn up some other potentials.
+								What we think of as video games really comprise multiple strands: Arcade machines; Television
+								games; Electronic games; And more recently, Virtual Reality; And Mobile Games, which have
+								rapidly become a significant part of the video games industry.
+								When we tease out these strands, the reason why it's so difficult to pin down the 'first'
+								video game becomes apparent.
+								Each of these strands has its own history: its own progression; and its own origin.
+								If we look at them individually, the picture becomes much clearer:
+								The first arcade video game? It's either Computer Space or Galaxy Game, both from the end of
+								1971.
+								The first television game? Ralph Baer's Brown Box.
+								The first electronic handheld video game? It could be the Game Boy, unless you count
+								the Atari Lynx prototypes from 1987.
+								The first virtual reality video game? Possibly played via the VPL Research EyePhone in 1987,
+								or the Virtuality from 1991 - although research in head-mounted displays goes all the way
+								back to the 1950s.
+								And the first mobile game? Tetris, on the 1994 Hagenuk MT-2000.
+								Nokia's Snake gets an honorable question.
+								So when we split video gaming into its components, the question becomes much easier to answer
+								- and the oldest strand becomes obvious.
+								It's computing. The first video game was almost certainly an early computer game like OXO
+								- it's just a question of determining the earliest example that qualifies.
+								The good news is, computers weren't exactly common in the 1940s and 50s - and fewer still
+								had video displays.
+								In the brief window between the invention of the Williams tube circa 1946 and OXO in
+								1952, there are seven potential machines.
+								Three of these potential computers were located at the University of Manchester, where the
+								Williams tube was developed.
+								The first was the Manchester Baby, operational in 1948 - a prototype, which was replaced
+								by the full-scale Manchester Mark 1 in 1949.
+								This in turn was developed into and replaced by a commercial model: the Ferranti Mark 1,
+								operational in early 1951.
+								There were two other British machines: The Pilot ACE at the National Physical Laboratory
+								in Teddington, London - operational in mid-1950;
+								And EDSAC at Cambridge University, which was first operational in 1949.
+								At this time, the Americans had two machines with a video display: the Whirlwind I, built
+								by MIT for the US Navy - partially operational in 1949, and reaching full capacity in 1951;
+								And the Standards Western Automatic Computer, or SWAC - located in Los Angeles.
+								It's impossible to know every program that ran on these early machines - but most of
+								them are fairly well documented.
+								Access was exclusive, and programs were filed in a job queue. There was normally a paper
+								trail, and there was an incentive for institutions to highlight their machine's accomplishments.
+								Unfortunately, this transparency and a need to justify the computer's existence meant
+								that games were a very low priority.
+							</p>
+
+							<div class="row">
+						
+								<div class="col-lg-6">
+									
+									<a href="fvg_part1.html" class="btn btn-dark">1</a>
+										
+									<a href="fvg_part2.html" class="btn btn-dark">2</a>
+
+									<a href="fvg_part3.html" class="btn btn-dark">3</a>
+
+									<a href="fvg_part5.html" class="btn btn-dark">5</a>
+
+									<a href="fvg_part6.html" class="btn btn-dark">6</a>
+									
+								</div>
+								
+							</div>		
+
+						</div>
+							
+					</div>
+					
+				</div>
+							
+			</div>
+				
+		</section>
+
+		
+		<!-- start of footer -->
+		<footer id="footer">
+			
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="col-sm-6">
+						
+						<div>&copy; 2019 - Present &nbsp;&nbsp; Andy O'Neill </div>
+						
+						<div>All images, logos & text copyright of their respective owners.</div>
+						
+					</div>
+				
+					<div class="col-sm-6"></div>
+					
+				</div>
+				
+			</div>
+			
+		</footer>
+
+		
+		
+		<!--====== Javascripts & Jquery ======-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+         	
+		<!-- Bootstrap Js CDN -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script src="js/smooth-scroll.js"></script>
+	
+
+	</body>
+	
+
+</html>
